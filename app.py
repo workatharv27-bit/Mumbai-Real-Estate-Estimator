@@ -183,7 +183,7 @@ def load_assets():
 model = load_assets()
 
 # --- HEADER ---
-st.title("🏙️ Mumbai Metropolitan AI Estimator")
+st.title("🏙️ Mumbai Real Estate Estimator")
 st.markdown(
     "**Real-Time Valuation Engine** | Covering BMC, NMMC, TMC, and KDMC jurisdictions."
 )
@@ -349,7 +349,7 @@ if predict_btn:
 st.markdown("---")
 footer_html = f"""
     <div class="footer">
-        <p>Developed by <b>Congnix AI</b></p>
+        <p>Developed by <b>Atharva</b></p>
         <p>© {datetime.now().year} | Mumbai Metropolitan Intelligence Terminal</p>
     </div>
 """
