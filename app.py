@@ -10,7 +10,7 @@ import io
 
 # --- CONFIGURATION ---
 st.set_page_config(
-    page_title="Mumbai Real Estate AI | Congnix AI", page_icon="🏙️", layout="wide"
+    page_title="Mumbai Real Estate | Congnix AI", page_icon="🏙️", layout="wide"
 )
 
 # --- CUSTOM CSS ---
@@ -183,7 +183,7 @@ def load_assets():
 model = load_assets()
 
 # --- HEADER ---
-st.title("🏙️ Mumbai Real Estate Estimator")
+st.title("🏙️ Mumbai Real Estate Price Estimator")
 st.markdown(
     "**Real-Time Valuation Engine** | Covering BMC, NMMC, TMC, and KDMC jurisdictions."
 )
